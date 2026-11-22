@@ -13,24 +13,25 @@
     "update-agent": "node --env-file-if-exists=.env --import tsx setup/update-agent.ts"
   },
   "dependencies": {
-    "@ai-sdk/react": "^4",
-    "@anthropic-ai/sdk": ">=0.109.0 <1.0.0",
+    "@ai-sdk/react": "^4.0.183",
+    "@anthropic-ai/sdk": "^1.12.0",
     "@chat-adapter/state-memory": "4.34.0",
-    "@chat-adapter/web": "4.34.0",
+    "@chat-adapter/web": "^4.45.0",
     "@hono/node-server": "^1",
-    "ai": "^7",
-    "chat": "4.34.0",
+    "ai": "^7.0.179",
+    "chat": "^4.37.0",
     "esbuild": "^0.25",
     "hono": "^4",
-    "react": "^19",
-    "react-dom": "^19",
-    "react-markdown": "^10",
-    "tsx": "^4"
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-markdown": "^10.1.0",
+    "tsx": "^4",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@types/node": "^22",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "typescript": "^5"
   }
 }
